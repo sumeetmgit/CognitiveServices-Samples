@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisionApis", "VisionApis", "{9A5E5A4E-B848-4BA3-BB39-EB0449B7C3D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpeechAPIs", "SpeechAPIs", "{C4A719B6-7D08-4BDB-BCEC-CE3C6FAC3ED2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageServices", "LanguageServices", "{931039F8-F34B-4200-AB93-BD3BC444B99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchAPIs", "SearchAPIs", "{E7DE7062-4887-497F-84AF-E2AA0CB12ABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{971A2CBD-0BB6-462C-BDC8-E9B71377BDBE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechAPI-Sample", "SpeechAPI-Sample\SpeechAPI-Sample.csproj", "{065CBB6B-8D32-475E-9846-2E6ABDDBBE67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065CBB6B-8D32-475E-9846-2E6ABDDBBE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065CBB6B-8D32-475E-9846-2E6ABDDBBE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065CBB6B-8D32-475E-9846-2E6ABDDBBE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065CBB6B-8D32-475E-9846-2E6ABDDBBE67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{065CBB6B-8D32-475E-9846-2E6ABDDBBE67} = {C4A719B6-7D08-4BDB-BCEC-CE3C6FAC3ED2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54546047-710D-4CF9-A434-C15DC89C75F3}
+	EndGlobalSection
+EndGlobal
